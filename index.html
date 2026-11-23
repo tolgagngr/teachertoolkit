@@ -4720,7 +4720,6 @@ document.addEventListener("change",e=>{
 });
 
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)));
-try{navigator.storage.persist()}catch(e){}
 initTheme();
 applyLangStatic();
 show(location.hash.slice(1)||"home");
